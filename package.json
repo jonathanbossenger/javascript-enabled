@@ -1,0 +1,21 @@
+{
+  "name": "javascript-enabled",
+  "version": "1.0.0",
+  "description": "JavaScript Enabled Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start --webpack-src-dir=resources --output-path=public",
+    "build": "wp-scripts build --webpack-src-dir=resources --output-path=public"
+  },
+  "author": "Jonathan Bossenger",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.8.0",
+    "path": "^0.12.7",
+    "webpack-remove-empty-scripts": "^1.0.4"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.54.0"
+  }
+}
